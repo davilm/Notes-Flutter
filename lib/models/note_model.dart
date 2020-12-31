@@ -6,6 +6,13 @@ class Note {
   Note({this.title, this.content, this.date});
 }
 
+final Map<String, int> categories = {
+  'Notes': 112,
+  'Work': 58,
+  'Home': 23,
+  'Complete': 31,
+};
+
 final List<Note> notes = [
   Note(
     title: 'Buy ticket',
